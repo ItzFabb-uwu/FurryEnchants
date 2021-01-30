@@ -1,0 +1,14 @@
+name: FurryEnchants
+author: ItzFabb
+version: 0.1
+api: ["3", "4"]
+main: FurryEnchants\ItzFabb\Main
+
+commands:
+  enchantingtable:
+    description: enchanting table command
+    
+permission:
+  furryenchants.enchant:
+    description: "allow player access /enchantingtable"
+    default: true
